@@ -17,5 +17,5 @@ Step 1. Add the JitPack repository to your build file
 
   Step 3. Use this line
   
-          SkyGenerator().addStarInterface(this)
+      SkyGenerator().addStarInterface(this)
 
