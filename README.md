@@ -6,7 +6,7 @@ Step 1. Add the JitPack repository to your build file
     
  If you are using Gradle 6.8 or newer add these lines in settings.gradle
  
-     dependencyResolutionManagement {
+    dependencyResolutionManagement {
         repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
         repositories {
             google()
@@ -27,10 +27,10 @@ If you are using older than Gradle 6.8 add these lines in build.gradle (Project)
 Step 2. Add the dependency
 
     dependencies {
-            implementation 'com.github.selmantsn:SkyGenerator:Tag'
+        implementation 'com.github.selmantsn:SkyGenerator:Tag'
     }
 
 Step 3. Use this line
   
-  SkyGenerator().addStarInterface(this)
+    SkyGenerator().addStarInterface(this)
 
